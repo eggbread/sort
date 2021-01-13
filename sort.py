@@ -28,7 +28,7 @@ from skimage import io
 import glob
 import time
 import argparse
-from filterpy.kalman import KalmanFilter
+from kalman_filter import KalmanFilter
 
 np.random.seed(0)
 
